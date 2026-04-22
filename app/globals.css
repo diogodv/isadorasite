@@ -2,26 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --dark:  #1a2e20;
+  --green: #2d6a4f;
+  --gold:  #7a5c2e;
+  --beige: #f7f5f2;
+  --sage:  #a8d5b5;
+  --sagel: #e8f0eb;
+  --muted: #647a6c;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; background: var(--beige); }
