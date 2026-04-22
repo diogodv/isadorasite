@@ -1,0 +1,75 @@
+{
+  "nav": {
+    "brand": "Dr. Isadora Follak",
+    "services": "Services",
+    "howItWorks": "How it works",
+    "about": "About",
+    "contact": "Contact",
+    "lang": "PT"
+  },
+  "hero": {
+    "tag": "Oral Radiology & Dental Imaging · Forensic Odontology · Legal Assistance",
+    "line1": "CBCT radiology reports,",
+    "line2": "forensic odontology services and",
+    "line3": "legal assistance.",
+    "bullet1": "Oral radiology specialist providing cone beam CT reports, forensic odontology and judicial/extrajudicial technical assistance.",
+    "bullet2": "100% remote service for dental clinics in Brazil and worldwide.",
+    "badge1": "🦷 CBCT Reports",
+    "badge2": "⚖️ Forensic Odontology",
+    "badge3": "📋 Legal Assistance",
+    "cta": "💬 Contact via WhatsApp",
+    "photoAlt": "Dr. Isadora Follak",
+    "cardRole": "Oral Radiology Specialist · PhD"
+  },
+  "services": {
+    "label": "Services",
+    "title": "What I can do\nfor your clinic",
+    "subtitle": "Radiological reports and expert opinions with scientific rigor and efficiency",
+    "card1Title": "CBCT Radiology Reports",
+    "card1Text": "Cone beam CT for implant planning, surgeries and complex diagnoses. 3D assessment and multiplanar reconstructions.",
+    "card2Title": "Measures for Implant Planning",
+    "card2Text": "Careful analysis of bone volume, anatomical structures and ideal implant positioning.",
+    "card3Title": "Forensic Odontology & Legal Assistance",
+    "card3Text": "Expert reports and technical opinions, judicial and extrajudicial assistance in dental-related legal cases."
+  },
+  "why": {
+    "label": "Why choose her",
+    "title": "Why Dr. Isadora?",
+    "item1Title": "PhD in Dentistry",
+    "item1Text": "High-level academic background",
+    "item2Title": "University Professor",
+    "item2Text": "Constantly updated with the latest research",
+    "item3Title": "100% Remote",
+    "item3Text": "Reports for clinics in Brazil and worldwide",
+    "item4Title": "Fast delivery",
+    "item4Text": "Reports delivered in up to 24–48 business hours"
+  },
+  "howItWorks": {
+    "label": "Process",
+    "title": "How it works",
+    "subtitle": "Simple remote workflow — no need to be in Brazil",
+    "step1Title": "Send your files",
+    "step1Text": "Upload your CBCT images via secure link. We accept all major DICOM formats.",
+    "step2Title": "Expert analysis",
+    "step2Text": "Dr. Isadora reviews the scan and prepares a detailed diagnostic report in English.",
+    "step3Title": "Receive your report",
+    "step3Text": "Full PDF report delivered in up to 24–48 business hours."
+  },
+  "about": {
+    "label": "About",
+    "title": "Dr. Isadora Follak",
+    "text": "Specialist in Oral Radiology and Dental Imaging, PhD in Dentistry and University Professor. She provides cone beam CT reports with a focus on precise diagnoses that support clinical decisions with confidence. She also offers forensic odontology services and legal assistance."
+  },
+  "testimonials": {
+    "placeholder": "Testimonials from partner clinics will be added soon."
+  },
+  "contact": {
+    "title": "Let's work together?",
+    "subtitle": "Get in touch and find out how we can partner up",
+    "whatsapp": "💬 Contact via WhatsApp",
+    "email": "✉️ Send an e-mail"
+  },
+  "footer": {
+    "copy": "© 2026 Dr. Isadora Follak"
+  }
+}

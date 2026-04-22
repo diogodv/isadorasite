@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "brand": "Dra. Isadora Follak",
+    "services": "Serviços",
+    "about": "Sobre",
+    "contact": "Contato",
+    "lang": "EN"
+  },
+  "hero": {
+    "tag": "Radiologia Oral & Imaginologia · Perícia Odontológica · Assistência Jurídica",
+    "line1": "Laudos de tomografia computadorizada,",
+    "line2": "serviços de perícia odontológica e",
+    "line3": "assistência jurídica.",
+    "bullet1": "Especialista em radiologia oral com atuação em laudos de tomografia computadorizada (cone beam), perícia odontológica e assistência técnica judicial e extrajudicial.",
+    "bullet2": "Atendimento 100% remoto para clínicas no Brasil e no exterior.",
+    "badge1": "🦷 Laudos de TC",
+    "badge2": "⚖️ Perícia Odontológica",
+    "badge3": "📋 Assistência Jurídica",
+    "cta": "💬 Entrar em contato via WhatsApp",
+    "photoAlt": "Dra. Isadora Follak",
+    "cardRole": "Especialista em Radiologia Oral"
+  },
+  "services": {
+    "label": "Serviços",
+    "title": "O que posso fazer\npela sua clínica",
+    "subtitle": "Laudos radiológicos e pareceres técnicos com rigor científico e agilidade",
+    "card1Title": "Laudos de Tomografia Computadorizada",
+    "card1Text": "Tomografia cone beam para implantes, cirurgias e diagnósticos complexos. Avaliação 3D e reconstruções multiplanares.",
+    "card2Title": "Medidas para Planejamento de Implantes",
+    "card2Text": "Análise criteriosa do volume ósseo, adjacências anatômicas e posicionamento ideal dos implantes.",
+    "card3Title": "Perícia Odontológica e Assistência Jurídica",
+    "card3Text": "Laudos e pareceres técnicos, assistência técnica judicial e extrajudicial, em demandas que envolvam a odontologia."
+  },
+  "why": {
+    "label": "Diferenciais",
+    "title": "Por que a Dra. Isadora?",
+    "item1Title": "Doutora em Odontologia",
+    "item1Text": "Formação acadêmica de alto nível",
+    "item2Title": "Professora Universitária",
+    "item2Text": "Atualização científica constante",
+    "item3Title": "100% Remoto",
+    "item3Text": "Laudos para qualquer clínica do Brasil e do exterior",
+    "item4Title": "Entrega ágil",
+    "item4Text": "Laudos podendo ser entregues em até 24–48h úteis"
+  },
+  "about": {
+    "label": "Sobre",
+    "title": "Dra. Isadora Follak",
+    "text": "Especialista em Radiologia Oral e Imaginologia, Doutora em Odontologia e Professora Universitária. Atua com laudos de tomografia cone beam, com foco em diagnósticos precisos que apoiam decisões clínicas com segurança. Prestação de serviços de perícia odontológica e assistência jurídica."
+  },
+  "testimonials": {
+    "placeholder": "Depoimentos de clínicas parceiras serão adicionados em breve."
+  },
+  "contact": {
+    "title": "Vamos conversar?",
+    "subtitle": "Entre em contato e descubra como podemos firmar uma parceria",
+    "whatsapp": "💬 WhatsApp",
+    "email": "✉️ E-mail"
+  },
+  "footer": {
+    "copy": "© 2026 Dra. Isadora Follak"
+  }
+}
