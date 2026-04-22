@@ -2,6 +2,8 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { locales, type Locale } from '@/i18n'
 import { notFound } from 'next/navigation'
+import Navbar from '@/components/layout/Navbar'
+import Footer from '@/components/layout/Footer'
 import type { Metadata } from 'next'
 
 type Props = { children: React.ReactNode; params: { locale: string } }
@@ -40,7 +42,9 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={params.locale === 'pt' ? 'pt-BR' : 'en'}>
       <body className="bg-beige font-body">
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <Navbar locale={params.locale as Locale} />
+          <main>{children}</main>
+          <Footer locale={params.locale as Locale} />
         </NextIntlClientProvider>
       </body>
     </html>
