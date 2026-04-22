@@ -1,10 +1,9 @@
-import createMiddleware from 'next-intl/middleware'
+import { NextResponse } from 'next/server'
+import type { NextRequest } from 'next/server'
 
-export default createMiddleware({
-  locales: ['pt', 'en'],
-  defaultLocale: 'pt',
-  localePrefix: 'always',
-})
+export function middleware(request: NextRequest) {
+  return NextResponse.next()
+}
 
 export const config = {
   matcher: ['/((?!_next|api|.*\\..*).*)'],
