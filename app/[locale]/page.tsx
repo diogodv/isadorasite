@@ -6,12 +6,14 @@ import About        from '@/components/sections/About'
 import Testimonials from '@/components/sections/Testimonials'
 import Contact      from '@/components/sections/Contact'
 import { getSiteSettings, getTestimonials } from '@/lib/sanity.queries'
+import { setRequestLocale } from 'next-intl/server'
 import type { Locale } from '@/i18n'
 
 type Props = { params: { locale: string } }
 
 export default async function HomePage({ params }: Props) {
   const locale = params.locale as Locale
+  setRequestLocale(locale)
   const [settings, testimonials] = await Promise.all([
     getSiteSettings(),
     getTestimonials(locale),

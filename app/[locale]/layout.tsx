@@ -1,5 +1,6 @@
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
+import { setRequestLocale } from 'next-intl/server'
 import { locales, type Locale } from '@/i18n'
 import { notFound } from 'next/navigation'
 import Navbar from '@/components/layout/Navbar'
@@ -36,6 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LocaleLayout({ children, params }: Props) {
   if (!locales.includes(params.locale as Locale)) notFound()
+  setRequestLocale(params.locale)
   const messages = await getMessages()
 
   return (
