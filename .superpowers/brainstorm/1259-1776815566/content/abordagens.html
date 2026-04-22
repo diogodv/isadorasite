@@ -1,0 +1,85 @@
+<h2>Abordagens para o Site</h2>
+<p class="subtitle">Três formas de construir o site — com trade-offs diferentes de prazo, custo e autonomia.</p>
+
+<div class="options">
+
+  <div class="option" data-choice="simples" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Next.js estático + conteúdo em JSON</h3>
+      <p>Site em Next.js com todo o conteúdo PT-BR e EN em arquivos JSON. Hospedagem gratuita no Vercel. Quando precisar atualizar texto, você edita o JSON ou me pede.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Prós</h4>
+          <ul>
+            <li>Mais simples de construir e manter</li>
+            <li>Custo zero (hospedagem + deploy)</li>
+            <li>Performance máxima (site 100% estático)</li>
+            <li>SEO excelente com metadata bilíngue</li>
+          </ul>
+        </div>
+        <div class="cons"><h4>Contras</h4>
+          <ul>
+            <li>Isadora não consegue editar sozinha</li>
+            <li>Qualquer atualização passa por você ou por mim</li>
+          </ul>
+        </div>
+      </div>
+      <p><strong>Prazo estimado:</strong> 1–2 semanas &nbsp;|&nbsp; <strong>Custo:</strong> só domínio (~$12/ano)</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="cms" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Next.js + Sanity CMS (recomendado)</h3>
+      <p>Site em Next.js com painel de administração Sanity. A Isadora entra no painel, edita textos e imagens sem tocar em código. Suporte bilíngue nativo no Sanity.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Prós</h4>
+          <ul>
+            <li>Isadora edita o site sozinha via painel web</li>
+            <li>Sanity gratuito até 3 usuários e 10k docs</li>
+            <li>Hospedagem gratuita no Vercel</li>
+            <li>Estrutura profissional e escalável</li>
+          </ul>
+        </div>
+        <div class="cons"><h4>Contras</h4>
+          <ul>
+            <li>Mais complexo de construir inicialmente</li>
+            <li>Curva de aprendizado pequena para Isadora (painel simples)</li>
+          </ul>
+        </div>
+      </div>
+      <p><strong>Prazo estimado:</strong> 2–3 semanas &nbsp;|&nbsp; <strong>Custo:</strong> só domínio (~$12/ano)</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="rapido" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Framer (no-code, lançamento rápido)</h3>
+      <p>Site construído no Framer — editor visual similar ao Figma. Isadora e você podem editar direto na interface. Mais rápido de lançar, menos flexível a longo prazo.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Prós</h4>
+          <ul>
+            <li>Lançamento em dias, não semanas</li>
+            <li>Editor visual intuitivo para não-técnicos</li>
+            <li>Visual moderno sem esforço</li>
+          </ul>
+        </div>
+        <div class="cons"><h4>Contras</h4>
+          <ul>
+            <li>~$15/mês (plano básico com domínio próprio)</li>
+            <li>Bilíngue mais trabalhoso de configurar</li>
+            <li>Menos controle sobre SEO técnico</li>
+            <li>Vendor lock-in — migrar depois é difícil</li>
+          </ul>
+        </div>
+      </div>
+      <p><strong>Prazo estimado:</strong> 3–5 dias &nbsp;|&nbsp; <strong>Custo:</strong> $15/mês + domínio</p>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:1rem">⭐ Recomendação: <strong>Opção B</strong> — equilíbrio ideal entre autonomia, custo zero e qualidade profissional.</p>
+<p class="subtitle">Clique na opção preferida e confirme no terminal.</p>
