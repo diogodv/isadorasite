@@ -13,5 +13,4 @@ export const siteSettings = defineType({
       fields: [defineField({ name: 'alt', title: 'Texto alternativo', type: 'string' })],
     }),
   ],
-  __experimental_actions: ['update', 'publish'],
 })

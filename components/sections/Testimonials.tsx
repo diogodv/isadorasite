@@ -16,7 +16,7 @@ export default async function Testimonials({ items }: { items: Testimonial[] }) 
       <div className="grid grid-cols-3 gap-6">
         {items.map(item => (
           <blockquote key={item._id} className="bg-beige rounded-2xl p-8">
-            <p className="text-[0.95rem] text-muted leading-[1.7] italic mb-4">"{item.text}"</p>
+            <p className="text-[0.95rem] text-muted leading-[1.7] italic mb-4">&ldquo;{item.text}&rdquo;</p>
             <cite className="text-[0.8rem] font-semibold text-dark not-italic">{item.clinic}</cite>
           </blockquote>
         ))}

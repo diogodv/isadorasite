@@ -2,7 +2,7 @@ import { getTranslations } from 'next-intl/server'
 import Image from 'next/image'
 import type { Locale } from '@/i18n'
 
-export default async function Hero({ locale, whatsapp }: { locale: Locale; whatsapp: string }) {
+export default async function Hero({ whatsapp }: { locale: Locale; whatsapp: string }) {
   const t = await getTranslations('hero')
   const waLink = `https://wa.me/${whatsapp}`
 

@@ -1,7 +1,6 @@
 import { getTranslations } from 'next-intl/server'
-import type { Locale } from '@/i18n'
 
-export default async function Footer({ locale }: { locale: Locale }) {
+export default async function Footer() {
   const t = await getTranslations('footer')
   return (
     <footer className="bg-dark px-[6vw] py-7 flex justify-between items-center">
