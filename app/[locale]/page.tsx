@@ -1,3 +1,6 @@
+export const dynamic = 'force-static'
+export const revalidate = false
+
 import Hero         from '@/components/sections/Hero'
 import Services     from '@/components/sections/Services'
 import WhyIsadora   from '@/components/sections/WhyIsadora'
